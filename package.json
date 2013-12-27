@@ -1,0 +1,38 @@
+{
+    "name": "evo-launcher",
+    "description": "Evo Cloud App Launcher",
+    "version": "0.0.1",
+    "author": "Yisui Hu <easeway@gmail.com>",
+    "scripts": {
+        "start": "node launcher",
+        "test": "mocha --reporter spec test/*-test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/evo-cloud/launcher"
+    },
+    "main": "./index.js",
+    "bin": "./launcher.js",
+    "dependencies": {
+        "evo-elements": "0.0.3",
+        "evo-neuron": "0.0.3",
+        "evo-idioms": "0.0.1",
+        "js-class": "0.0.2",
+        "underscore": "1.5.1",
+        "async": "0.2.9"
+    },
+    "devDependencies": {
+        "mocha": "1.12.0",
+        "sandboxed-module": "0.2.1"
+    },
+    "engines": {
+        "node": ">=0.10",
+        "npm": "1"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/evo-cloud/launcher/raw/master/LICENSE"
+        }
+    ]
+}
